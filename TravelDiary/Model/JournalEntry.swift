@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// objects are custom data types
 class JournalEntry {
     // stored properties
     
@@ -31,3 +32,14 @@ class JournalEntry {
     
     
 } // end of class
+
+extension JournalEntry: Equatable {
+    static func == (lhs: JournalEntry, rhs: JournalEntry) -> Bool {
+        return lhs.title == rhs.title &&
+        lhs.address == rhs.address &&
+        lhs.summary == rhs.summary &&
+        lhs.timestamp == rhs.timestamp
+    }
+    
+    
+}
