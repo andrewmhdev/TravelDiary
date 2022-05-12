@@ -60,7 +60,7 @@
                                 <connections>
                                     <outlet property="journalEntryAddressLabel" destination="hcX-vf-tXP" id="oJg-ZO-WgV"/>
                                     <outlet property="journalEntryDateLabel" destination="grB-6O-RG5" id="j8M-BW-N5n"/>
-                                    <outlet property="journalEntryNameLabel" destination="qwE-N3-JSL" id="Lnf-zd-vfr"/>
+                                    <outlet property="journalEntryTitleLabel" destination="qwE-N3-JSL" id="Lnf-zd-vfr"/>
                                     <segue destination="9sb-Li-bA7" kind="show" identifier="toDetailVC" id="Sfx-oq-yTW"/>
                                 </connections>
                             </tableViewCell>
